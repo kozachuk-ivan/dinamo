@@ -1,0 +1,15 @@
+@media (max-width:768px) {
+    .box-head__caption {
+        font-size: 38px;
+    }
+}
+
+@media (max-width:425px) {
+    .box-head__caption {
+        font-size: 28px;
+    }
+
+    .box-head__desc {
+        max-width: 355px;
+    }
+}

@@ -1,0 +1,35 @@
+@media (max-width:768px) {
+    .dinamo__caption {
+        font-size: 40px;
+        max-width: 550px;
+    }
+
+    .dinamo__desc {
+        max-width: 450px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .dinamo {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header/dinamo-bgi.jpg);
+        background-position: 78%;
+    }
+
+    .header__phone-num {
+        display: none;
+    }
+
+    .dinamo__content {
+        text-align: center;
+    }
+
+    .dinamo__caption {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }   
+
+    .dinamo__desc {
+        margin-bottom: 30px;
+    }
+}

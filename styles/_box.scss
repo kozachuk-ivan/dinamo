@@ -1,0 +1,16 @@
+.box-head {
+    text-align: center;
+    margin-bottom: 60px;
+
+    &__caption {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    &__desc {
+        max-width: 632px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,42 @@
+@media (max-width:1024px) {
+    .delivery__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .delivery__col:not(:last-child) {
+        margin: 0 0 60px 0;
+
+        &:first-child {
+            margin-right: 0;
+        }
+    }
+
+    .delivery__card {
+        flex-direction: column;
+    }
+
+    .delivery__desc {
+        text-align: center;
+    }
+
+    .delivery__icon {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media (max-width:425px) {
+    .delivery__card {
+        flex-direction: column;
+    }
+
+    .delivery__desc {
+        max-width: 355px;
+        text-align: center;
+    }
+
+    .delivery__icon {
+        margin: 0 0 30px 0;
+    }
+}
